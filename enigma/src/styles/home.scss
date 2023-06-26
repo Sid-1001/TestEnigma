@@ -1,0 +1,128 @@
+@import "colors";
+
+
+
+.home {
+    width: 100%;
+    height: 35vh;
+    background-color: $second;
+    
+    >h1 {
+        color: $first;
+        text-align: center;
+        padding: 1rem;
+        font: $text1;
+    }
+}
+
+.matches-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: $dark;
+    margin-top: 2rem;
+  }
+  
+  .matches-bar form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .matches-bar .dropdown {
+    display: flex;
+    margin-right: 10px;
+  }
+  
+  .matches-bar select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+  
+  .matches-bar input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+  
+  .matches-bar button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .matches-bar button:hover {
+    background-color: #0056b3;
+  }
+  
+  .matches-bar button:focus {
+    outline: none;
+  }
+  
+  .matches-bar select:focus,
+  .matches-bar input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+
+  
+  
+
+  .match-stats-tile {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .match-stats-tile:hover {
+    transform: translateY(-5px);
+  }
+  
+  .match-stats-content {
+    border: 2px solid #444444;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .team-info {
+    margin-bottom: 10px;
+  }
+  
+  .team-name {
+    font-weight: bold;
+    font-size: 22px;
+  }
+  
+  .team-vs {
+    margin: 0 10px;
+    font-size: 16px;
+    color: #888888;
+  }
+  
+  .match-status {
+    font-size: 14px;
+    color: #555555;
+  }
+  
+  .team-image {
+    width: 33px; /* Adjust the width as needed */
+    height: 25px; /* Adjust the height as needed */
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 5px; /* Adjust the margin as needed */
+    margin-left: 5px; /* Adjust the margin as needed */
+  }
+

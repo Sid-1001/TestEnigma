@@ -1,0 +1,45 @@
+@import "colors";
+
+nav {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  background-color: $first;
+  top: 0%;
+  z-index: 10;
+
+
+  >img {
+    height:28px;
+    width: 30px;
+    margin-left: 4rem;
+  }
+
+  > h1 {
+    text-transform: uppercase;
+    color: $black;
+    margin-right: 13rem;
+  }
+
+  > main {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+
+    >button {
+        margin-right: 1rem;
+    }
+
+    > a {
+      color: $black;
+      margin: 1rem;
+
+      &:hover {
+        color: $third;
+      }
+    }
+  }
+}

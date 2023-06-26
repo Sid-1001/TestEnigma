@@ -1,0 +1,113 @@
+@import "colors";
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $second;
+    padding: 10px;
+    width: 40%; /* Adjust the width as needed */
+    border-radius: 50px; /* Add rounded edges */
+    margin: 0 auto; /* Center align horizontally */
+  }
+  
+  
+  
+  
+  .image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+    padding: 5px;
+    margin: 0 30px; /* Add spacing between the images */
+  }
+  
+  
+  .image {
+    width: 80px;
+    height: 80px;
+  }
+
+  .score-text {
+    color: white;
+    font-weight: bold;
+    font-size: 40px; // Adjust the font size as needed
+    margin: 0 10px; // Add spacing between the score text and images
+  }
+
+  .text-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; // Add spacing between the container and text
+  }
+  
+  .date-text {
+    font-size: 16px; // Adjust the font size as needed
+    text-align: center;
+  }
+  
+  .attendance-text {
+    font-size: 16px; // Adjust the font size as needed
+    text-align: center;
+    margin-left: 30px; // Add spacing between the date and attendance text
+  }
+
+  .summary-heading {
+    font-size: 30px; // Adjust the font size as needed
+    text-align: center;
+    margin-top: 50px; // Add spacing between the text and heading
+    margin-bottom: 20px; // Add spacing below the heading
+    background-color: $second; // Set the background color
+    color: white; // Set the text color to white
+    padding: 10px; // Add padding to the background
+  }
+  
+  .display-area {
+    margin-top: 30px; // Add spacing above the component
+    background-color: #d0c9c9; // Replace with your desired off-white color
+    padding: 40px;
+    width: 70%; // Reduce the length by 30%
+    height : 15rem;
+    margin: 0 auto; // Center align horizontally
+  }
+
+  
+.word-by-word {
+  opacity: 0;
+  animation: word-generate 2s linear forwards;
+  white-space: wrap;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+@keyframes word-generate {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.word-by-word span {
+  display: inline-block;
+  opacity: 0;
+  animation: word-appear 2s linear forwards;
+}
+
+@keyframes word-appear {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+  

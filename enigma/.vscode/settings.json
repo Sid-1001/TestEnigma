@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/1bf43edb-e67f-42e8-bdcc-aef9f84bc495/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/AISportsGenerator",
+    "appService.deploySubpath": "."
+}
