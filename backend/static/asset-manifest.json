@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3e3de79f.css",
+    "main.js": "/static/js/main.8ebd8a74.js",
+    "static/media/carousel1.jpg": "/static/media/carousel1.75a77a680245303a584d.jpg",
+    "static/media/Cagliari.png": "/static/media/Cagliari.e95714a689a8fe9fc2eb.png",
+    "static/media/Atalanta.png": "/static/media/Atalanta.891bb5f9d97a2758a321.png",
+    "static/media/img1-PhotoRoom.png": "/static/media/img1-PhotoRoom.16421cc4a6b7d6e3be19.png",
+    "static/media/carousel3.jpg": "/static/media/carousel3.5efd80584a8ece6825b9.jpg",
+    "index.html": "/index.html",
+    "main.3e3de79f.css.map": "/static/css/main.3e3de79f.css.map",
+    "main.8ebd8a74.js.map": "/static/js/main.8ebd8a74.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e3de79f.css",
+    "static/js/main.8ebd8a74.js"
+  ]
+}
